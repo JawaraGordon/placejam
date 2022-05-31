@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Header from './Header';
 import Hero from './Hero';
+import soundfile from '../audio/01 Space Jam (From _Space Jam_) [Karaoke Version].mp3';
 
 import NewCourtForm from './NewCourtForm';
 import About from './About';
@@ -10,6 +11,15 @@ import Login from './SignUp';
 function App() {
   const [courts, setCourts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+
+  const audio = new Audio(soundfile);
+
+  const start = () => {
+    audio.play();
+  };
+  const pause = () => {
+    audio.pause();
+  };
 
   useEffect(() => {
     fetch('http://localhost:4004/courts')
@@ -33,6 +43,19 @@ function App() {
   return (
     <div className="home">
       <Header />
+
+      <div className="audio">
+        <button className="submit-btn" onClick={start}>
+          <h2>Play</h2>
+        </button>
+        <div id="audio-img">
+          {' '}
+          <img src="https://i.imgur.com/VpyuAnm.png"></img>{' '}
+        </div>
+        <button className="submit-btn" onClick={pause}>
+          <h2>Pause</h2>
+        </button>
+      </div>
 
       <Switch>
         <Route exact path="/">
