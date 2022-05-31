@@ -30,10 +30,6 @@ function App() {
     return court.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
-  function handleSetCourts() {
-    setCourts();
-  }
-
   return (
     <div className="home">
       <Header />
