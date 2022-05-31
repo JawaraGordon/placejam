@@ -45,14 +45,14 @@ function App() {
       <Header />
 
       <div className="audio">
-        <button className="submit-btn" onClick={start}>
-          <h2>Play</h2>
+        <button className="audio-btn" onClick={start}>
+          <h2> Play </h2>
         </button>
         <div id="audio-img">
           {' '}
           <img src="https://i.imgur.com/VpyuAnm.png"></img>{' '}
         </div>
-        <button className="submit-btn" onClick={pause}>
+        <button className="audio-btn" onClick={pause}>
           <h2>Pause</h2>
         </button>
       </div>
