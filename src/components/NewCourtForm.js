@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
-function Add({ courts, setCourts }) {
+function Add({ setCourts }) {
   const [formState, setFormState] = useState({
     name: '',
     address: '',
@@ -50,11 +50,10 @@ function Add({ courts, setCourts }) {
   return (
     <div className="court-form">
       <form onSubmit={handleSubmit} className="court-form">
+        <div className="court-form">
+          <img src="https://i.imgur.com/PjmyGdF.png"></img>
+        </div>
 
-          <div className="court-form">
-            <img src="https://i.imgur.com/PjmyGdF.png"></img>
-          </div>
-        
         <br></br>
         <input
           type="text"

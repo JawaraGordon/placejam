@@ -8,17 +8,13 @@ import About from './About';
 import Login from './SignUp';
 
 function App() {
-
   const [courts, setCourts] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-
-
 
   useEffect(() => {
     fetch('http://localhost:4004/courts')
       .then((r) => r.json())
       .then((courtArr) => {
-     
         setCourts(courtArr);
       });
   }, []);
@@ -62,7 +58,7 @@ function App() {
         </Route>
 
         <Route path="/courts/new">
-          <NewCourtForm key={courts.id} courts={courts} setCourts={setCourts} />
+          <NewCourtForm setCourts={setCourts} />
         </Route>
       </Switch>
     </div>
