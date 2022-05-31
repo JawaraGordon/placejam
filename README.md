@@ -6,7 +6,7 @@ Locate and rate basketball courts in your local area.
 
 A React app that allows users to find basketball courts in their local area.
 
-You can search by name, click on an address to open a google maps link, “like” your favorite locations add your own courts to the list. You can also check the weather using an Open Weather API widget. Play the "PlaceJam" theme song by using the audio player.
+You can search by name, click on an address to open a google maps link, “like” your favorite locations add your own courts to the list. You can check the weather using an Open Weather API widget and play the "PlaceJam" theme song by using the provided audio player.
 
 PlaceJam uses a local json server to host a local db.json file that stores it's data. This app also uses react router to navigate between components using a navbar and navlink.
 
