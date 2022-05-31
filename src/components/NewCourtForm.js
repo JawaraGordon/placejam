@@ -15,7 +15,6 @@ function Add({ setCourts }) {
     shade: '',
     restroom: '',
   });
-
   const history = useHistory();
 
   function handleChange(e) {
@@ -194,5 +193,4 @@ function Add({ setCourts }) {
     </div>
   );
 }
-
 export default Add;
