@@ -10,9 +10,9 @@ You can search by name, click on an address to open a google maps link, â€œlikeâ
 
 PlaceJam uses a local json server to host a local db.json file that stores it's data. This app also uses react router to navigate between components using a navbar and navlink.
 
-Finding a way to hide my API key from a public GitHub effectively was one is the biggest challenges of this project. Learning to use the correct naming convention for routes was another takeaway from this experience.
+- Finding a way to hide my API key from a public GitHub effectively was one is the biggest challenges of this project. My commit history had to be completely deleted to remove any record of the key. (Thanks for the warning GitGuardian!!) Learning to use the correct naming convention for routes was another takeaway from this experience.
 
-In the future I hope to add a backend server to allow users to login to the app. This will allow them to save changes to their data along with allowing them access to social functions like chat and finding a pick-up game.
+- In the future I hope to add a backend server to allow users to login to the app. This will allow them to save changes to their data along with allowing them access to social functions like chat and finding a pick-up game.
 
 ### How to Install and Run the Project
 
