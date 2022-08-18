@@ -22,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/JawaraGordon/placejam/main/db.json')
+    fetch('https://backend-placejam.herokuapp.com/courts')
       .then((r) => r.json())
       .then((courtArr) => {
         setCourts(courtArr);
