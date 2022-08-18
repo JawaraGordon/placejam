@@ -32,7 +32,7 @@ function Add({ setCourts }) {
       likes: 0,
     };
 
-    fetch('http://localhost:4004/courts', {
+    fetch('https://backend-placejam.herokuapp.com/courts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

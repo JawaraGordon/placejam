@@ -24,7 +24,7 @@ function CourtCard({ courts, handleUpdateLike }) {
       likes: likes + 1,
     };
 
-    fetch(`http://localhost:4004/courts/${id}`, {
+    fetch(`https://backend-placejam.herokuapp.com/courts/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
