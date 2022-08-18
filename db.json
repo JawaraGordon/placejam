@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Pioneer Park",
       "image": "https://www.letsplaysarasota.com/home/showpublishedimage/7487/637516548925370000",
-      "likes": 3,
+      "likes": 5,
       "address": "1260 12th St, Sarasota",
       "google": "https://www.google.com/maps/place/Pioneer+Park/@27.3484038,-82.5456091,17z/data=!3m1!4b1!4m5!3m4!1s0x88c34177e5a24c57:0x509ef04af5ddc9f0!8m2!3d27.3484038!4d-82.5456091",
       "indoor": "false",
@@ -129,18 +129,19 @@
       "restroom": "nearby"
     },
     {
-      "name": "Cool Basketball Court",
+      "name": "test",
       "address": "1234 Fake Ln ",
       "indoor": "true",
       "outdoor": "false",
-      "cost": "-$5",
-      "image": "https://i.imgur.com/W0wQdcw.png",
-      "court_rating": "9",
+      "cost": "8",
+      "image": "",
+      "court_rating": "8",
       "nets": "yes",
-      "backboard": "other",
-      "shade": "no",
-      "restroom": "nearby",
-      "likes": 1,
+      "backboard": "plastic",
+      "shade": "some",
+      "restroom": "yes",
+      "google": "https://www.google.com/maps/d/u/0/viewer?hl=en_US&mid=16yFm6pQ2aAktkFmnhiQNUIJ5RV8&ll=42.50448195164251%2C-83.1610865&z=13",
+      "likes": 0,
       "id": 9
     }
   ]

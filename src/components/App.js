@@ -22,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('http://localhost:4004/courts')
+    fetch('https://github.com/JawaraGordon/placejam/blob/main/db.json')
       .then((r) => r.json())
       .then((courtArr) => {
         setCourts(courtArr);
@@ -43,7 +43,6 @@ function App() {
   return (
     <div className="home">
       <Header />
-
       <div className="audio">
         <button className="audio-btn" onClick={start}>
           <h2> Play </h2>
