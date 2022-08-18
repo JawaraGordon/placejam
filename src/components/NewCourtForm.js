@@ -50,7 +50,7 @@ function Add({ setCourts }) {
     <div className="court-form">
       <form onSubmit={handleSubmit} className="court-form">
         <div className="court-form">
-          <img src="https://i.imgur.com/PjmyGdF.png"></img>
+          <img src="https://i.imgur.com/PjmyGdF.png" alt="court form"></img>
         </div>
 
         <br></br>

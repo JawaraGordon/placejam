@@ -49,7 +49,7 @@ function App() {
         </button>
         <div id="audio-img">
           {' '}
-          <img src="https://i.imgur.com/VpyuAnm.png"></img>{' '}
+          <img src="https://i.imgur.com/VpyuAnm.png" alt="audio"></img>{' '}
         </div>
         <button className="audio-btn" onClick={pause}>
           <h2>Pause</h2>

@@ -8,7 +8,7 @@ function SignUp() {
   return (
     <div className="court-form">
       <form onSubmit={handleSubmit} className="court-form">
-        <img src="https://i.imgur.com/bE9gNSp.png"></img>
+        <img src="https://i.imgur.com/bE9gNSp.png" alt="signup"></img>
         <br></br>
         <input
           type="text"
