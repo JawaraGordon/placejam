@@ -22,7 +22,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('https://github.com/JawaraGordon/placejam/blob/main/db.json')
+    fetch('https://raw.githubusercontent.com/JawaraGordon/placejam/main/db.json')
       .then((r) => r.json())
       .then((courtArr) => {
         setCourts(courtArr);
